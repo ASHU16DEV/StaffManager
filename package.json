@@ -1,0 +1,23 @@
+{
+  "name": "staff-management-bot",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord staff management bot with dual-server role synchronization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "staff",
+    "management"
+  ],
+  "author": "ASHU16",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "js-yaml": "^4.1.1",
+    "node-cron": "^3.0.3"
+  }
+}
