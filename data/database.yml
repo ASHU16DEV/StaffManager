@@ -1,0 +1,105 @@
+servers:
+  '1432227986039378011':
+    staffRoles:
+      - '1439817495602008074'
+      - '1439817468863582313'
+      - '1439817436957376563'
+      - '1439817398940209266'
+      - '1439817361996906557'
+    managerRoles: []
+    staffCommandRoles:
+      - '1432231367185268767'
+      - '1439941129754902619'
+    inactiveRole: '1439820940346134558'
+    channels:
+      inactiveRequest: '1439822824133890098'
+      promote: '1439820727355179079'
+      demote: '1439820727355179079'
+      resign: '1439820727355179079'
+      fire: '1439820727355179079'
+      roleSyncLog: '1439820765284401152'
+      errorLog: '1439820695977722008'
+    strikes: []
+    strikeLimit: 2
+    strikeChannelId: '1439820765284401152'
+  '1439196831048269936':
+    staffRoles:
+      - '1439468733650305146'
+    managerRoles: []
+    staffCommandRoles: []
+    inactiveRole: null
+    channels:
+      inactiveRequest: null
+      promote: null
+      demote: null
+      resign: null
+      fire: null
+      roleSyncLog: null
+      errorLog: null
+    strikes: []
+    strikeLimit: 3
+    strikeChannelId: null
+staffRoles: {}
+managerRoles: {}
+staffCommandRoles: {}
+inactiveRequests: []
+staffRecords:
+  - userId: '1046400328125399040'
+    action: promote
+    role: '1439817361996906557'
+    reason: I am happy
+    executor: '1109737341142179861'
+    timestamp: 1763378849300
+  - userId: '1046400328125399040'
+    action: promote
+    role: '1439817398940209266'
+    reason: haha
+    executor: '1109737341142179861'
+    timestamp: 1763378913002
+  - userId: '1046400328125399040'
+    action: promote
+    role: '1439817468863582313'
+    reason: No reason provided
+    executor: '1109737341142179861'
+    timestamp: 1763435845216
+  - userId: '1046400328125399040'
+    action: demote
+    role: '1439817436957376563'
+    reason: No reason provided
+    executor: '1109737341142179861'
+    timestamp: 1763435874980
+  - userId: '1046400328125399040'
+    action: promote
+    role: '1439817495602008074'
+    reason: No reason provided
+    executor: '1109737341142179861'
+    timestamp: 1763435919716
+  - userId: '1046400328125399040'
+    action: fire
+    roles:
+      - '1439817361996906557'
+      - '1439817468863582313'
+      - '1439817495602008074'
+    reason: No reason provided
+    executor: '1109737341142179861'
+    timestamp: 1763435935051
+inactiveMembers: []
+serverLinks:
+  mainServerId: '1439196831048269936'
+  staffServerId: '1432227986039378011'
+roleMaps:
+  - mainRoleId: '1439468626360008804'
+    staffRoleId: '1439817495602008074'
+  - mainRoleId: '1439468652322623590'
+    staffRoleId: '1439817468863582313'
+  - mainRoleId: '1439468674305101946'
+    staffRoleId: '1439817436957376563'
+  - mainRoleId: '1439468702314659891'
+    staffRoleId: '1439817398940209266'
+  - mainRoleId: '1439468733650305146'
+    staffRoleId: '1439817361996906557'
+  - mainRoleId: '1439941190228119572'
+    staffRoleId: '1439941129754902619'
+  - mainRoleId: '1439820875292741765'
+    staffRoleId: '1439820940346134558'
+channels: {}
